@@ -42,7 +42,7 @@ describe('js intro', () => {
       lastName: "Black",
       age: 65,
       hobbies: {
-        hobb1: "driving",
+        hobby1: "driving",
         hobby2: "sleeping"
       }
     }
@@ -106,7 +106,7 @@ describe('js intro', () => {
         age: 64,
         hobby: "cooking",
         hobbies: {
-          hobb1: "cooking",
+          hobby1: "cooking",
           hobby2: "sleeping"
         }
       }])
@@ -122,7 +122,7 @@ describe('js intro', () => {
         age: 64,
         hobby: "cooking",
         hobbies: {
-          hobb1: "cooking",
+          hobby1: "cooking",
           hobby2: "sleeping"
         }
       })
@@ -197,7 +197,7 @@ describe('js intro', () => {
   });
 
   describe('fetchPromiseExample', () => {
-    it.only('works with promise', () => {
+    it('works with promise', () => {
       fetchPromiseExample().then(data => {
         expect(data).toEqual(users)
       });
