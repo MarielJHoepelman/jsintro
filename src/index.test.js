@@ -206,9 +206,9 @@ describe('js intro', () => {
 
   describe('fetchAsyncExample', () => {
     it.only('works with async/await', async () => {
-      const data = await fetchAsyncExample();
+      const newData = await fetchAsyncExample();
 
-      expect(data).toEqual(users);
+      expect(newData).toEqual(users);
     });
   });
 });
